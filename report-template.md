@@ -42,4 +42,4 @@ Most propably most of the time will be spent in feature engineering part where I
 ![model_test_score.png](model_test_score.png)
 
 ## Summary
-TODO: Add your explanation
+All in all, this project showed the crucial impact of feature engineering and hyperparamter tuning on model performance. Models were evaluated using kaggle score (Root Mean Squared Logarithmic Error (RMSLE)) and the results showed that feature engineering and tuning the parameters out performed initial models and models that relied only on engineered features.
