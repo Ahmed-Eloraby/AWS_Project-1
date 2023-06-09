@@ -27,9 +27,9 @@ Most propably most of the time will be spent in feature engineering part where I
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|hpo1|hpo2|hpo3|score|
 |--|--|--|--|--|
-|initial|?|?|?|?|
-|add_features|?|?|?|?|
-|hpo|?|?|?|?|
+|initial|default_vals|default_vals|default_vals|1.80502|
+|add_features|default_vals|default_vals|default_vals|0.66926|
+|hpo|GBM:num_boost_round: 100, learning_rate: 0.1, num_leaves:(10,50)|NN: num_epochs: 10, learning_rate: between 1e-4, 1e-2 (log) activation: ['relu', 'softrelu', 'tanh'], dropout_prob: (0.0, 0.5)	|RF: n_estimators: (50, 200),max_depth: (5, 20)|0.48413|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
